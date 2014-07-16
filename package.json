@@ -30,6 +30,5 @@
     "url": "https://github.com/javiercornejo/node-zimbra.git"
   },
   "license": "MIT",
-  "engines": { "node": ">= 0.10.x" },
-  "license": "ISC"
+  "engines": { "node": ">= 0.10.x" }  
 }
