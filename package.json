@@ -1,0 +1,30 @@
+{
+  "name": "node-zimbra-soap",
+  "version": "0.0.1",
+  "description": "This package is designed to be the simplest way possible to communicate with Zimbra Soap Service",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zimbra",
+    "soap",
+    "web",
+    "service"
+  ],
+  "author": {
+    "name": "Javier Cornejo Alfaro",
+    "email": "javier@overit.cl",
+    "url": "http://overit.cl"
+  },
+  "dependencies": {
+    "request": "*",
+    "js2xmlparser": "*",
+    "xml2js": "*"
+  },
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "engines": { "node": ">= 0.10.x" },
+  "license": "ISC"
+}
