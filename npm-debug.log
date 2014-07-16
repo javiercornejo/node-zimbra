@@ -54,7 +54,7 @@
 28 silly publish      url: 'https://github.com/javiercornejo/node-zimbra.git' },
 28 silly publish   license: 'MIT',
 28 silly publish   engines: { node: '>= 0.10.x' },
-28 silly publish   gitHead: '21d40d59f27e4b105e5111ae097fb891c1582c41',
+28 silly publish   gitHead: 'e765d71466c070cada37eecf2baed2f102ef8ce0',
 28 silly publish   bugs: { url: 'https://github.com/javiercornejo/node-zimbra/issues' },
 28 silly publish   readme: 'ERROR: No README data found!',
 28 silly publish   homepage: 'https://github.com/javiercornejo/node-zimbra',
@@ -64,26 +64,26 @@
 29 verbose url raw node-zimbra
 30 verbose url resolving [ 'https://registry.npmjs.org/', './node-zimbra' ]
 31 verbose url resolved https://registry.npmjs.org/node-zimbra
-32 info trying registry request attempt 1 at 22:44:07
+32 info trying registry request attempt 1 at 22:45:30
 33 http PUT https://registry.npmjs.org/node-zimbra
 34 http 403 https://registry.npmjs.org/node-zimbra
-35 verbose headers { date: 'Wed, 16 Jul 2014 02:44:09 GMT',
+35 verbose headers { date: 'Wed, 16 Jul 2014 02:45:45 GMT',
 35 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
 35 verbose headers   'content-type': 'application/json',
 35 verbose headers   'cache-control': 'max-age=30',
 35 verbose headers   'content-length': '2779',
 35 verbose headers   'accept-ranges': 'bytes',
 35 verbose headers   via: '1.1 varnish',
-35 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+35 verbose headers   'x-served-by': 'cache-jfk1021-JFK',
 35 verbose headers   'x-cache': 'MISS',
 35 verbose headers   'x-cache-hits': '0',
-35 verbose headers   'x-timer': 'S1405478649.222740,VS0,VE335',
+35 verbose headers   'x-timer': 'S1405478745.362240,VS0,VE351',
 35 verbose headers   'keep-alive': 'timeout=10, max=50',
 35 verbose headers   connection: 'Keep-Alive' }
 36 error publish Failed PUT 403
 37 error Error: forbidden cannot modify pre-existing version: 0.0.1
 37 error old={"name":"node-zimbra","version":"0.0.1","description":"This package is designed to be the simplest way possible to communicate with Zimbra Soap Service","main":"lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["zimbra","soap","web","service"],"author":{"name":"Javier Cornejo Alfaro","email":"javier@overit.cl","url":"http://overit.cl"},"dependencies":{"request":"*","js2xmlparser":"*","xml2js":"*"},"devDependencies":{"coffee-script":"*"},"repository":{"type":"git","url":"https://github.com/javiercornejo/node-zimbra.git"},"license":"ISC","engines":{"node":">= 0.10.x"},"gitHead":"21d40d59f27e4b105e5111ae097fb891c1582c41","bugs":{"url":"https://github.com/javiercornejo/node-zimbra/issues"},"homepage":"https://github.com/javiercornejo/node-zimbra","_id":"node-zimbra@0.0.1","_shasum":"5a707fb8c2b67f6f9fddb71e1cbe2c37dfd18a11","_from":".","_npmVersion":"1.4.14","_npmUser":{"name":"javiercornejo","email":"javier@overit.cl"},"maintainers":[{"name":"javiercornejo","email":"javier@overit.cl"}],"dist":{"shasum":"5a707fb8c2b67f6f9fddb71e1cbe2c37dfd18a11","tarball":"http://registry.npmjs.org/node-zimbra/-/node-zimbra-0.0.1.tgz"}}
-37 error new={"name":"node-zimbra","version":"0.0.1","description":"This package is designed to be the simplest way possible to communicate with Zimbra Soap Service","main":"lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["zimbra","soap","web","service"],"author":{"name":"Javier Cornejo Alfaro","email":"javier@overit.cl","url":"http://overit.cl"},"dependencies":{"request":"*","js2xmlparser":"*","xml2js":"*"},"devDependencies":{"coffee-script":"*"},"repository":{"type":"git","url":"https://github.com/javiercornejo/node-zimbra.git"},"license":"MIT","engines":{"node":">= 0.10.x"},"gitHead":"21d40d59f27e4b105e5111ae097fb891c1582c41","bugs":{"url":"https://github.com/javiercornejo/node-zimbra/issues"},"readme":"ERROR: No README data found!","homepage":"https://github.com/javiercornejo/node-zimbra","_id":"node-zimbra@0.0.1","_shasum":"a795d62c74bb117c750c0d9c177f179bf982958e","_from":".","_npmVersion":"1.4.14","_npmUser":{"name":"javiercornejo","email":"javier@overit.cl"},"maintainers":[{"name":"javiercornejo","email":"javier@overit.cl"}],"dist":{"shasum":"a795d62c74bb117c750c0d9c177f179bf982958e","tarball":"http://registry.npmjs.org/node-zimbra/-/node-zimbra-0.0.1.tgz"}}: node-zimbra
+37 error new={"name":"node-zimbra","version":"0.0.1","description":"This package is designed to be the simplest way possible to communicate with Zimbra Soap Service","main":"lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["zimbra","soap","web","service"],"author":{"name":"Javier Cornejo Alfaro","email":"javier@overit.cl","url":"http://overit.cl"},"dependencies":{"request":"*","js2xmlparser":"*","xml2js":"*"},"devDependencies":{"coffee-script":"*"},"repository":{"type":"git","url":"https://github.com/javiercornejo/node-zimbra.git"},"license":"MIT","engines":{"node":">= 0.10.x"},"gitHead":"e765d71466c070cada37eecf2baed2f102ef8ce0","bugs":{"url":"https://github.com/javiercornejo/node-zimbra/issues"},"readme":"ERROR: No README data found!","homepage":"https://github.com/javiercornejo/node-zimbra","_id":"node-zimbra@0.0.1","_shasum":"a795d62c74bb117c750c0d9c177f179bf982958e","_from":".","_npmVersion":"1.4.14","_npmUser":{"name":"javiercornejo","email":"javier@overit.cl"},"maintainers":[{"name":"javiercornejo","email":"javier@overit.cl"}],"dist":{"shasum":"a795d62c74bb117c750c0d9c177f179bf982958e","tarball":"http://registry.npmjs.org/node-zimbra/-/node-zimbra-0.0.1.tgz"}}: node-zimbra
 37 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:274:14)
 37 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:65)
 37 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)

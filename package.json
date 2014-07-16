@@ -1,6 +1,6 @@
 {
   "name": "node-zimbra",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package is designed to be the simplest way possible to communicate with Zimbra Soap Service",
   "main": "lib/index.js",
   "scripts": {
