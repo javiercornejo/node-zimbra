@@ -1,13 +1,9 @@
 # node-zimbra
-================
 
-This package is designed to be the simplest way possible to communicate with Zimbra Soap Service
-
-
-You can communitcate with SOAP service present in Zimbra Server. This is probed with 8.0+ version.
-
+This package is designed to be the simplest way possible to communicate with Zimbra Soap Service. You can communitcate with SOAP service present in Zimbra Server. This is probed with 8.0+ version.
 
 ### Example:
+The following example calls two Zimbra method getAuthToken and getAccountInfo.
 
 ```
 ZimbraSoap = require('./soap').ZimbraSoap
